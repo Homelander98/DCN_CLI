@@ -3,16 +3,21 @@ node_modules/
 npm-debug.log
 yarn-debug.log
 yarn-error.log
-package-lock.json
-yarn.lock
 
-# React Native
+# React Native build outputs
 android/app/build/
 android/build/
 ios/build/
 ios/Pods/
+android/app/.cxx/
+
+# Android/Gradle
 *.keystore
 *.jks
+.gradle/
+local.properties
+
+# Xcode
 *.p8
 *.p12
 *.key
@@ -21,29 +26,21 @@ ios/Pods/
 *.xcworkspace
 *.xcodeproj
 *.xcuserdata
+*.xcuserdatad
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
 *.DS_Store
 
 # Metro
 .expo/
 .expo-shared/
 
-# Misc
-.env
-.env.*
-.idea/
-.vscode/
-*.swp
-*.swo
-
 # macOS
 .DS_Store
 
-# Test
+# Test coverage
 coverage/
-
-# Build outputs
-build/
-dist/
 
 # Logs
 *.log
@@ -54,32 +51,24 @@ fastlane/Preview.html
 fastlane/screenshots/
 fastlane/test_output/
 
-# Gradle
-.gradle/
-
 # CocoaPods
 Pods/
 
-# Xcode
-*.xcuserdatad
-*.xcscmblueprint
-*.xccheckout
-*.moved-aside
-*.xcuserstate
-*.xcworkspace
-
-# Android Studio
-*.iml
+# Android Studio/VSCode/IDE
 .idea/
-.gradle/
-build/
-local.properties
+.vscode/
+*.iml
 
 # Misc
+.env
+.env.*
+*.swp
+*.swo
 *.orig
 *.rej
 *.bak
 *.tmp
 
-# VSCode
-.vscode/
+# Build outputs
+build/
+dist/
