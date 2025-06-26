@@ -83,6 +83,3 @@ local.properties
 
 # VSCode
 .vscode/
-
-# Android app build artifacts
-android/app/.cxx/
